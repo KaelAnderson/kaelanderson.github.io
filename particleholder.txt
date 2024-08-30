@@ -1,0 +1,44 @@
+{
+  "background": {
+    "color": "#000"
+  },
+  "particles": {
+    "color": {
+      "value": "#fff"
+    },
+    
+    "move": {
+      "direction": "none",
+      "enable": true,
+      "outModes": {
+        "default": "bounce"
+      },
+      "random": false,
+      "speed": 0.1,
+      "straight": false,
+      "attract": {
+        "enable": true,
+        "rotate": {
+          "x": 3000,
+          "y": 3000
+        }
+      }
+    },
+    "number": {
+      "density": {
+        "enable": true
+      },
+      "value": 200
+    },
+    "opacity": {
+      "value": 0.9
+    },
+    "shape": {
+      "type": "circle"
+    },
+    "size": {
+      "random": true,
+      "value": 3
+    }
+  }
+}
