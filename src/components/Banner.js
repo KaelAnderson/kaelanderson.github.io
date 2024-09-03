@@ -53,7 +53,7 @@ export const Banner = () => {
 
             <Container>
                 <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={8}>
+                    <Col xs={12} md={12} xl={8}>
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
@@ -74,12 +74,18 @@ export const Banner = () => {
                             }
                         </TrackVisibility>
                     </Col>
-                    <Col xs={12} md={6} xl={3}>
+                    <Col xs={12} md={3} xl={3} className='right-orbit'>
                         <figure class="system">
-                        <span class="planet"><img src={earth}></img></span>
-                        <span class="moon"><img src={headerImg}></img></span>
+                            <span class="planet"><img src={earth}></img></span>
+                            <span class="moon"><img src={headerImg}></img></span>
                         </figure>
                     </Col>
+                </Row>
+                <Row className='below-orbit'>
+                    <figure class="system">
+                        <span class="planet"><img src={earth}></img></span>
+                        <span class="moon"><img src={headerImg}></img></span>
+                    </figure>
                 </Row>
             </Container>
         </section>
