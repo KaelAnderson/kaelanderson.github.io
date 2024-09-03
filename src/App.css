@@ -37,13 +37,13 @@
 }
 
 #tsparticles {
-    position: fixed;
+    position: relative;
     height: 100%;
     width: 100%;
     margin: 0;
-    padding: 0;
-    left: 0;
-    top: 0;
+    padding: 0px 0px 0px 0px;
+    left: 0px;
+    top: 0px;
     z-index: -1;
 }
 
@@ -538,14 +538,16 @@
 /* Footer CSS */
 .footer {
   height: calc(100% - 60px);
-  padding: 50px 0 10px 0;
+  padding: 45px 0 10px 0;
   background-color: #151515;
-  margin: 70px 0px 0px 0;
+  margin: 70px 0px 0px 0px;
+  max-width: 100%;
 }
 
 .footer img {
   width: 40%;
   padding: auto;
+  margin: 0px 0px 0px 0px;
 }
 
 .footer p {
@@ -565,10 +567,12 @@
   .slider2 {
     visibility: hidden;
     height: 0px;
+    width: 0px;
   }
   .slider3 {
     visibility: hidden;
     height: 0px;
+    width: 0px;
   }
   .below-orbit{
     visibility: hidden;
@@ -580,16 +584,18 @@
   .slider1 {
     visibility: hidden;
     height: 0px;
+    width: 0px;
   }
   .slider2 {
     visibility: visible;
     height: auto;
+    width: auto;
   }
   .slider3 {
     visibility: hidden;
     height: 0px;
+    width: 0px;
   }
-  
 
   .right-orbit{
     visibility: hidden;
@@ -615,6 +621,10 @@
     font-size: 17px;
     font-weight: 450;
   }
+  .footer img {
+    width: 50%;
+    
+  }
 
 }
 
@@ -637,6 +647,10 @@
   .project .project-bx p {
     font-size: 17px;
   }
+  .footer img {
+    width: 60%;
+    
+  }
 }
 
 @media (max-width: 768px){
@@ -644,20 +658,34 @@
     top: calc(-5% - 1.5vw);
     left: calc(35% - 1.5vw);
   }
+  .footer img {
+    width: 100%;
+    
+  }
+}
+@media (max-width: 576px){
+  .footer img {
+    
+    width: 60%;
+    
+  }
 }
 
 @media (max-width: 560px){
   .slider1 {
     visibility: hidden;
     height: 0px;
+    width: 0px;
   }
   .slider2 {
     visibility: hidden;
     height: 0px; 
+    width: 0px;
   }
   .slider3 {
     visibility: visible;
     height: auto;
+    width: auto;
   }
   .project .project-bx h2 {
     font-size: 33px;
