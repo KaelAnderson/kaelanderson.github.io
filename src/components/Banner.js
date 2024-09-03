@@ -67,8 +67,8 @@ export const Banner = () => {
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni commodi sunt corporis ducimus veniam tempore explicabo incidunt dignissimos dicta mollitia?
                                     </p>
 
-                                    <button onClick={() => console.log('connect')}>
-                                        Let's connect <ArrowRightCircle size={25} />
+                                    <button onClick={() => console.log('connect')} className='connect-button'>
+                                        <div>Let's connect</div> <ArrowRightCircle size={25} />
                                     </button>
                                 </div>
                             }
