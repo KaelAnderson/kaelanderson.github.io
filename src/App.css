@@ -500,9 +500,7 @@
 
 .box img {
   display: block;
-  
   margin: auto;
-  
   max-width: 1110px;
   border-radius: 24px;
 }
@@ -513,26 +511,32 @@
   padding: 10px 3px 30px 0px;
 }
 
-.proj-rows {
+.projrows {
   display: flex;
   flex-direction: row;
 }
 
-.proj-rows div {
+.projrows div {
   font-size: 17px;
   text-wrap: wrap;
   
   text-align: left;
   display: flex;
   flex-direction: column;
-  padding: 13px 15px 12px 0px;
+  padding: 13px 10px 12px 0px;
+  max-width: 50vw;
 }
-.proj-rows img {
+.projrows img {
   
   display: block;
-  max-width: 450px;
+  max-width: 25vw;
   margin: auto;
   border-radius: 24px;
+}
+.projbelow img {
+  visibility: hidden;
+  height: 0;
+  width: 0;
 }
 
 /* Footer CSS */
@@ -579,6 +583,8 @@
     height: 0;
     width: 0;
   }
+  
+
 }
 @media (max-width: 1199px){
   .slider1 {
@@ -621,12 +627,33 @@
     font-size: 17px;
     font-weight: 450;
   }
+  .projrows div {
+    max-width: fit-content;
+  }
+  .projrows img {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  .projbelow img {
+    visibility: visible;
+    height: 45vw;
+    width: fit-content;
+    max-width: 45vw;
+    display: block;
+    margin: auto;
+    max-width: 1110px;
+    border-radius: 24px;
+  }
+
   .footer img {
     width: 50%;
     
   }
 
 }
+
+
 
 @media (max-width: 991px){
   .navbar-text{
@@ -651,6 +678,11 @@
     width: 60%;
     
   }
+  
+  .projrows div {
+    max-width: fit-content;
+  }
+
 }
 
 @media (max-width: 768px){
