@@ -59,11 +59,8 @@ function GreenPath(){
                                     <div>The hackathon started and we decided to go with the challenge from an Assurant, an insurance company. Early in the morning of the competition, they released the theme, “thriving in a connected world”.</div>
                                     <div>When I first began brainstorming for the KSU Spring 2024 Hackathon, my initial idea was inspired by Snapshot by Progressive. My idea was an app that monitors a driver’s habits, like acceleration and braking, to maximize fuel efficiency.</div>
                                 </div>
-                                
-                                
-                                <img src={KSUSpring2024Hack}  alt=""/>
-                                
-
+ 
+                            <img src={KSUSpring2024Hack}  alt=""/>
                             </div>
                             <div className="projbelow">
                                 <img src={KSUSpring2024Hack}  alt=""/>
