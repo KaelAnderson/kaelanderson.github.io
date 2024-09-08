@@ -12,7 +12,7 @@ import HIXLab from "../assets/img/HIXLab.jpg"
 import HIXLogo from "../assets/img/HIXLogo.png"
 import HIXSponsors from "../assets/img/HIXSponsors.png"
     
-function StudyAngel(){
+function KSUResearch(){
     const [init, setInit] = useState(false);
 
     useEffect(() => {
@@ -32,7 +32,7 @@ function StudyAngel(){
     };
     
     return(
-        <div className="StudyAngel">
+        <div className="KSUResearch">
             <Particles
                 id="tsparticles"
                 particlesLoaded={particlesLoaded}
@@ -104,4 +104,4 @@ function StudyAngel(){
 
 }   
 
-export default StudyAngel;
+export default KSUResearch;

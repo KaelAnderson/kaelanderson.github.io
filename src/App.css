@@ -373,7 +373,9 @@
     letter-spacing: 0.8px;
     display: flex;
     align-items: center;
+    
   }
+  
   
   .banner button svg {
     font-size: 25px;
@@ -385,7 +387,9 @@
   .banner button:hover svg {
     margin-left: 25px;
   }
-  
+  .banner a {
+    color: #000;
+  }
   
   
   .txt-rotate > .wrap {
@@ -526,7 +530,12 @@
   padding: 13px 10px 12px 0px;
   max-width: 50vw;
 }
-.projrows img {
+.projbelow img{
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+.contactrows img {
   
   display: block;
   width: 27vw;
@@ -534,11 +543,32 @@
   margin: auto;
   border-radius: 24px;
 }
-.projbelow img {
-  visibility: hidden;
-  height: 0;
-  width: 0;
+
+.contactrows {
+  display: flex;
+  flex-direction: row;
 }
+
+.contactrows div {
+  font-size: 17px;
+  text-wrap: wrap;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 13px 10px 12px 1.5vh;
+  max-width: 60vw;
+}
+.contactrows img {
+  
+  display: block;
+  width: 27vw;
+  
+  max-width: 450px;
+  margin: 0;
+  border-radius: 24px;
+}
+
+
 
 /* Footer CSS */
 .footer {
@@ -698,6 +728,13 @@
   .box div {
     font-size: medium;
   }
+  .contactrows img{
+    width: 27vw;
+    height: 48vw;
+  }
+  .contactrows div {
+    font-size: 2.2vw;
+  }
 }
 @media (max-width: 576px){
   .footer img {
@@ -707,6 +744,13 @@
     width: 65vw;
     height: fit-content;
     max-width: 65vw;
+  }
+  .contactrows img{
+    width: 27vw;
+    height: 48vw;
+  }
+  .contactrows div {
+    font-size: 2.3vw;
   }
 }
 
@@ -748,6 +792,16 @@
   .project h4 {
     font-size: 17px;
     font-weight: 450;
+  }
+  .contactrows div{
+    font-size: 2.75vw;
+  }
+  .contactrows img{
+    width: 30vw;
+    height: 53.3333vw;
+  }
+  .contactrows div {
+    font-size: 2.3vw;
   }
 }
 @media (max-width: 485px){

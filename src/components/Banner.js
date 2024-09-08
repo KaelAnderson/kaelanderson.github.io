@@ -64,12 +64,13 @@ export const Banner = () => {
                                     </h1>
 
                                     <p>
-                                        Whether it's working on my research, developing software, or diving into new tech, every project is an opportunity to learn and make an impact.
+                                        Whether it's working on my research, developing software, or diving into new tech, I view every project is an opportunity to learn and make an impact.
                                     </p>
-
-                                    <button onClick={() => console.log('connect')} className='connect-button'>
-                                        <div>Let's connect</div> <ArrowRightCircle size={25} />
-                                    </button>
+                                    <a href="/Contact" aria-label='Contact' rel='noopener' target='_blank'>
+                                        <button onClick={() => console.log('connect')} className='connect-button'>
+                                            <div>Let's connect</div> <ArrowRightCircle size={25} />
+                                        </button>
+                                    </a>
                                 </div>
                             }
                         </TrackVisibility>

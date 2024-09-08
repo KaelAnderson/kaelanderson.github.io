@@ -69,10 +69,11 @@ export const NavBar = () => {
 
                             
                         </div>
-
-                        <button className='vvd' onClick={() => console.log('connect')}>
-                            <span>Let's Connect</span>
-                        </button>
+                        <a href="/Contact" aria-label='Contact' rel='noopener' target='_blank' >
+                            <button className='vvd' onClick={() => console.log('connect')} >
+                                <span>Let's Connect</span>
+                            </button>
+                        </a>
                     </span>
                 </Navbar.Collapse>
             </Container>
