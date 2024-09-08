@@ -1,14 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-
-import colorSharp from '../assets/img/color-sharp.png';
 import 'animate.css';
-import TrackVisibility from "react-on-screen";
 import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -18,7 +10,7 @@ import GreenPathLogo from '../assets/img/GreenPathLogo169.png'
 import StudyAngelLogo from '../assets/img/StudyAngelLogo169.png'
 import JuliaLogo from '../assets/img/JuliaLogo169.jpg'
 import scroll from 'react-scroll';
-
+import HIXLogo from "../assets/img/HIXLogo.png"
 
 export const Projects = () => {
     
@@ -63,7 +55,7 @@ export const Projects = () => {
                         <div className="project-bx">
                             <h2>Projects</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque praesentium aspernatur atque ea voluptatem, amet eum vel       IVI
+                            From innovative hackathon projects to in-depth research in VR and machine learning, my portfolio showcases a variety of challenges I've tackled and stuff I've made.
                             </p>
                             <div >
                             <Slider {...settings1} className="slider1">
@@ -72,12 +64,17 @@ export const Projects = () => {
                                     <Link to="/GreenPath" onClick={scrollToTop}>
                                         <img src={GreenPathLogo} alt="" />
                                     </Link>
-                                    
                                 </div>
                                 <div>
                                     <h4>StudyAngel</h4>
                                     <Link to="/StudyAngel" onClick={scrollToTop}>
                                         <img src={StudyAngelLogo} alt="" />
+                                    </Link>
+                                </div>
+                                <div>
+                                    <h4>Undergrad Research</h4>
+                                    <Link to="/KSUResearch" onClick={scrollToTop}>
+                                        <img src={HIXLogo} alt="" />
                                     </Link>
                                 </div>
                                 <div>
