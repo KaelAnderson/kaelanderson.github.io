@@ -64,7 +64,7 @@ export const Banner = () => {
                                     </h1>
 
                                     <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni commodi sunt corporis ducimus veniam tempore explicabo incidunt dignissimos dicta mollitia?
+                                        Whether it's working on my research, developing software, or diving into new tech, every project is an opportunity to learn and make an impact.
                                     </p>
 
                                     <button onClick={() => console.log('connect')} className='connect-button'>

@@ -12,6 +12,8 @@ import GreenPath from "./pages/GreenPath";
 import StudyAngel from "./pages/StudyAngel";
 import JuliaCompiler from "./pages/JuliaCompiler";
 import KSUResearch from "./pages/KSUResearch";
+import Contact from "./pages/Contact"
+
 function App() {
     
     return (
@@ -24,6 +26,7 @@ function App() {
                     <Route path="/StudyAngel" element={<StudyAngel/>}/>
                     <Route path="/JuliaCompiler" element={<JuliaCompiler/>}/>
                     <Route path="/KSUResearch" element={<KSUResearch/>}/>
+                    <Route path="/Contact" element={<Contact/>}/>
                 </Routes>
             </BrowserRouter>
 

@@ -55,7 +55,7 @@ export const Projects = () => {
                         <div className="project-bx">
                             <h2>Projects</h2>
                             <p>
-                            From innovative hackathon projects to in-depth research in VR and machine learning, my portfolio showcases a variety of challenges I've tackled and stuff I've made.
+                            From winning hackathon projects to novel research in VR and machine learning, my portfolio shows a variety of challenges I've tackled and stuff I've made.
                             </p>
                             <div >
                             <Slider {...settings1} className="slider1">
