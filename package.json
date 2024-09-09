@@ -1,7 +1,8 @@
 {
-  "name": "testparticles",
+  "name": "KaelAndersonPortfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://KaelAnderson.github.io/KaelAndersonPortfolio",
   "dependencies": {
     "@gsap/react": "^2.1.1",
     "@tsparticles/engine": "^3.5.0",
@@ -43,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

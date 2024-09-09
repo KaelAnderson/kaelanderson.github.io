@@ -31,13 +31,11 @@ export const NavBar = () => {
 
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
-            <Container>
+            <Container >
                 <Navbar.Brand href="/#home">
                     <img src={logo} alt="logo" />
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" >
-                    <span className='navbar-toggler-icon'></span>
-                </Navbar.Toggle>
+                
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link
@@ -69,13 +67,18 @@ export const NavBar = () => {
 
                             
                         </div>
-                        <a href="/Contact" aria-label='Contact' rel='noopener' target='_blank' >
-                            <button className='vvd' onClick={() => console.log('connect')} >
-                                <span>Let's Connect</span>
-                            </button>
-                        </a>
+                        <div className='contactbutton'>
+                            <a href="/Contact" aria-label='Contact' rel='noopener' target='_blank'>
+                                <button  onClick={() => console.log('connect')} >
+                                    <span>Let's Connect</span>
+                                </button>
+                            </a>
+                        </div>
                     </span>
                 </Navbar.Collapse>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" >
+                    <span className='navbar-toggler-icon'></span>
+                </Navbar.Toggle>
             </Container>
         </Navbar>
     )

@@ -319,6 +319,7 @@
     border-color: transparent;
   }
   
+
   /* Banner CSS */
   .banner {
     margin-top: 0;
@@ -624,7 +625,7 @@
 /* Footer CSS */
 .footer {
   height: calc(100% - 60px);
-  padding: 45px 0 10px 0;
+  padding: 35px 0 20px 0;
   background-color: #151515;
   margin: 70px 0px 0px 0px;
   max-width: 100%;
@@ -738,14 +739,19 @@
 
 
 @media (max-width: 991px){
-  .navbar-text{
-    visibility: hidden;
-    height: 0px;
-    width: 0px;
-  }
+  
   nav.navbar a.navbar-brand {
     width: 10%;
   }
+  
+  .navbar div {
+    display: flex;
+    flex-direction: row;
+  }
+  nav.navbar .container {
+    flex-wrap: nowrap;
+  }
+
   .planet{
     top: calc(-5% - 1.5vw);
     left: calc(38% - 1.5vw);
@@ -768,6 +774,15 @@
 }
 
 @media (max-width: 768px){
+  nav.navbar .navbar-nav {
+    padding: 0 10px;
+  }
+  .contactbutton{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  
   .planet{
     top: calc(-5% - 1.5vw);
     left: calc(35% - 1.5vw);
@@ -788,8 +803,12 @@
   }
 }
 @media (max-width: 576px){
-  .footer img {
-    width: 60%;
+  Footer .fulllogo {
+    display: flex;
+    width: 300px;
+    height: fit-content;
+    max-width: 300px;
+    margin-left: 25vw;
   }
   .projbelow img {
     width: 65vw;
@@ -844,7 +863,9 @@
 
 
 @media (max-width: 515px){
-
+  Footer .fulllogo {
+    margin-left: 23vw;
+  }
   .banner h1 {
     font-size: 43px;
   }
@@ -867,6 +888,15 @@
   }
 }
 @media (max-width: 485px){
+  Footer .fulllogo {
+    margin-left: 20vw;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link{
+    padding: 0 10px 0 10px;
+  }
+  nav.navbar a.navbar-brand {
+    width: 45px;
+  }
   .planet {
     top: calc(-18% - 1.5vw);
     left: calc(29% - 1.5vw);
@@ -891,6 +921,18 @@
   }
 }
 @media (max-width: 415px){
+  Footer .fulllogo {
+    margin-left: 15vw;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+  }
+  span.navbar-text{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
   .planet{
     top: calc(-5% - 1.5vw);
     left: calc(26% - 1.5vw);
@@ -902,10 +944,12 @@
   .contactrows button::before {
     min-width: 15px;
     min-height: 15px;
-    
   }
 }
 @media (max-width: 373px){
+  Footer .fulllogo {
+    margin-left: 10vw;
+  }
   .planet{
     top: calc(-5% - 1.5vw);
     left: calc(23% - 1.5vw);
@@ -932,6 +976,9 @@
   
 }
 @media (max-width: 333px){
+  Footer .fulllogo {
+    margin-left: 3vw;
+  }
   .planet{
     top: calc(-5% - 1.5vw);
     left: calc(21% - 1.5vw);
