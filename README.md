@@ -14,6 +14,8 @@ install react-scroll
 
 ### `npm i react-scroll`
 
+### `npm install file-saver --save`
+
 In the project directory, you can run:
 
 ### `npm start`

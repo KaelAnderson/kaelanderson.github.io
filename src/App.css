@@ -555,7 +555,7 @@
   text-align: left;
   display: flex;
   flex-direction: column;
-  padding: 13px 10px 12px 1.5vh;
+  padding: 13px 10px 12px 1.5vw;
   max-width: 60vw;
 }
 .contactrows img {
@@ -567,7 +567,58 @@
   margin: 0;
   border-radius: 24px;
 }
+.contactrows button {
+  display: inline-block;
+  text-align: left;
+  
+  color: #fff;
+  text-align: left;
+  padding: 13px 10px 12px 1.5vw;
+}
 
+.contactrows button img {
+  width: 2vw;
+  height: 2vw;
+  min-width: 28px;
+  min-height: 28px;
+  background: rgba(217, 217, 217, 0.1);
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 6px;
+  align-items: normal;
+  justify-content: normal;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.contactrows button::before {
+  
+  content: "";
+  width: 2vw;
+  height: 2vw;
+  min-width: 28px;
+  min-height: 28px;
+  position: absolute;
+  margin: 0px 0px 0px 0;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+}
+
+.contactrows button:hover::before {
+  transform: scale(1);
+}
+
+.contactrows button img {
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.contactrows button:hover img{
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
+    hue-rotate(346deg) brightness(95%) contrast(86%);
+}
 
 
 /* Footer CSS */
@@ -752,6 +803,17 @@
   .contactrows div {
     font-size: 2.3vw;
   }
+  .contactrows button img {
+    width: 2vw;
+    height: 2vw;
+    min-width: 22px;
+    min-height: 22px;
+  }
+  .contactrows button::before {
+    min-width: 22px;
+    min-height: 22px;
+    
+  }
 }
 
 @media (max-width: 560px){
@@ -832,6 +894,15 @@
   .planet{
     top: calc(-5% - 1.5vw);
     left: calc(26% - 1.5vw);
+  }
+  .contactrows button img {
+    min-width: 15px;
+    min-height: 15px;
+  }
+  .contactrows button::before {
+    min-width: 15px;
+    min-height: 15px;
+    
   }
 }
 @media (max-width: 373px){

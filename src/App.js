@@ -13,12 +13,15 @@ import StudyAngel from "./pages/StudyAngel";
 import JuliaCompiler from "./pages/JuliaCompiler";
 import KSUResearch from "./pages/KSUResearch";
 import Contact from "./pages/Contact"
+import ScrollToTop from "./components/ScrollToTop";
+
 
 function App() {
     
     return (
         <div>
             <BrowserRouter>
+                <ScrollToTop/>
                 <Routes>
                     <Route index element={<Home/>}/>
                     <Route path="/Home" element={<Home/>}/>

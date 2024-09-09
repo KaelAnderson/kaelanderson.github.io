@@ -7,11 +7,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "../components/NavBar";
 import { Footer } from "../components/Footer";
 import { Col, Row, Container } from "react-bootstrap";
-import KaelHeadshot from "../assets/img/KaelAndersonHeadshot.jpg"
-import HIXLab from "../assets/img/HIXLab.jpg"
-import HIXLogo from "../assets/img/HIXLogo.png"
-import HIXSponsors from "../assets/img/HIXSponsors.png"
-    
+import KaelHeadshot from "../assets/img/KaelAndersonHeadshot.jpg";
+import arrowdownshort from "../assets/img/arrow-down-short.svg";
+import KaelAndersonResume from "../assets/img/KaelAndersonResume.pdf"
+
+
 function Contact(){
     const [init, setInit] = useState(false);
 
@@ -30,7 +30,16 @@ function Contact(){
     const particlesLoaded = (container) => {
         console.log(container);
     };
-    
+    const onButtonClick = () => {
+        
+        const link = document.createElement("a");
+        link.href = KaelAndersonResume;
+        link.download = "KaelAndersonResume.pdf"; // specify the filename
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return(
         <div className="Contact">
             <Particles
@@ -54,6 +63,7 @@ function Contact(){
                                     <div>Email: andersonkael6@gmail.com</div>
                                     <div>Linkedin: linkedin.com/in/kael-anderson6/</div>
                                     <div>GitHub: github.com/KaelAnderson</div>
+                                    <button onClick={onButtonClick}><img src={arrowdownshort}  size={25}/>Download my Resume</button>
                                 </div>
                                 
                             </div>

@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 import 'animate.css';
-import React from "react";
+import React  from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -9,15 +9,13 @@ import {Link} from "react-router-dom";
 import GreenPathLogo from '../assets/img/GreenPathLogo169.png'
 import StudyAngelLogo from '../assets/img/StudyAngelLogo169.png'
 import JuliaLogo from '../assets/img/JuliaLogo169.jpg'
-import scroll from 'react-scroll';
+import {animateScroll as scroll} from 'react-scroll'
 import HIXLogo from "../assets/img/HIXLogo.png"
+
 
 export const Projects = () => {
     
-    const scrollToTop = () => {
-        scroll.scrollToTop();
-      };
-
+    
     var settings1 = {
         dots: true,
         infinite: true,
@@ -61,25 +59,29 @@ export const Projects = () => {
                             <Slider {...settings1} className="slider1">
                                 <div>
                                     <h4>GreenPath</h4>
-                                    <Link to="/GreenPath" onClick={scrollToTop}>
+                                    <Link to="/GreenPath" >
+                                         
                                         <img src={GreenPathLogo} alt="" />
                                     </Link>
                                 </div>
                                 <div>
                                     <h4>StudyAngel</h4>
-                                    <Link to="/StudyAngel" onClick={scrollToTop}>
+                                    <Link to="/StudyAngel" >
+                                         
                                         <img src={StudyAngelLogo} alt="" />
                                     </Link>
                                 </div>
                                 <div>
                                     <h4>Undergrad Research</h4>
-                                    <Link to="/KSUResearch" onClick={scrollToTop}>
+                                    <Link to="/KSUResearch" >
+                                         
                                         <img src={HIXLogo} alt="" />
                                     </Link>
                                 </div>
                                 <div>
                                     <h4>Julia Compiler</h4>
-                                    <Link to="/JuliaCompiler" onClick={scrollToTop}>
+                                    <Link to="/JuliaCompiler" >
+                                         
                                         <img src={JuliaLogo} alt="" />
                                     </Link>
                                 </div>
@@ -87,20 +89,30 @@ export const Projects = () => {
                             <Slider {...settings2} className="slider2">
                                 <div>
                                     <h4>GreenPath</h4>
-                                    <Link to="/GreenPath" onClick={scrollToTop}>
+                                    <Link to="/GreenPath">
+                                         
                                         <img src={GreenPathLogo} alt="" />
                                     </Link>
                                     
                                 </div>
                                 <div>
                                     <h4>StudyAngel</h4>
-                                    <Link to="/StudyAngel" onClick={scrollToTop}>
+                                    <Link to="/StudyAngel">
+                                         
                                         <img src={StudyAngelLogo} alt="" />
                                     </Link>
                                 </div>
                                 <div>
+                                    <h4>Undergrad Research</h4>
+                                    <Link to="/KSUResearch" >
+                                         
+                                        <img src={HIXLogo} alt="" />
+                                    </Link>
+                                </div>
+                                <div>
                                     <h4>Julia Compiler</h4>
-                                    <Link to="/JuliaCompiler" onClick={scrollToTop}>
+                                    <Link to="/JuliaCompiler">
+                                         
                                         <img src={JuliaLogo} alt="" />
                                     </Link>
                                 </div>
@@ -108,20 +120,30 @@ export const Projects = () => {
                             <Slider {...settings3} className="slider3">
                                 <div>
                                     <h4>GreenPath</h4>
-                                    <Link to="/GreenPath" onClick={scrollToTop}>
+                                    <Link to="/GreenPath">
+                                         
                                         <img src={GreenPathLogo} alt="" />
                                     </Link>
                                     
                                 </div>
                                 <div>
                                     <h4>StudyAngel</h4>
-                                    <Link to="/StudyAngel" onClick={scrollToTop}>
+                                    <Link to="/StudyAngel">
+                                         
                                         <img src={StudyAngelLogo} alt="" />
                                     </Link>
                                 </div>
                                 <div>
+                                    <h4>Undergrad Research</h4>
+                                    <Link to="/KSUResearch" >
+                                         
+                                        <img src={HIXLogo} alt="" />
+                                    </Link>
+                                </div>
+                                <div>
                                     <h4>Julia Compiler</h4>
-                                    <Link to="/JuliaCompiler" onClick={scrollToTop}>
+                                    <Link to="/JuliaCompiler">
+                                         
                                         <img src={JuliaLogo} alt="" />
                                     </Link>
                                 </div>
