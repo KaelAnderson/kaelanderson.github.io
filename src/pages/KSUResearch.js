@@ -45,7 +45,7 @@ function KSUResearch(){
                         <div className="box">
                             <h2>KSU Undergraduate Research</h2>
 
-                            <h3>Getting Started</h3>
+                            <h3>On your mark, get ready, Start!</h3>
                             <div className="projrows">
                                 <div>
                                     <div>In April 2023, a professor of mine introduced me to a research opportunity that aligned perfectly with my interests and skills. After reaching out to Dr. Rifatul Islam, the Director of HIX Lab, I discussed my background and passion for VR. Following our conversation, Dr. Islam invited me to join the team as an undergraduate research assistant—a role that has allowed me to dive deeper into both research and VR technology.</div>
