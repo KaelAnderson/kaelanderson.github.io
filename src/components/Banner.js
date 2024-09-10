@@ -5,6 +5,7 @@ import headerImg from '../assets/img/Cartoon Moon.png'
 import earth from '../assets/img/Earth.png'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
+import { Link } from 'react-router-dom';
 
 
 
@@ -66,11 +67,13 @@ export const Banner = () => {
                                     <p>
                                         Whether it's working on my research, developing software, or diving into new tech, I view every project as an opportunity to learn and make an impact.
                                     </p>
-                                    <a href="/Contact" aria-label='Contact' rel='noopener' target='_blank'>
+                                    
+                                    <Link to="/Contact">
                                         <button onClick={() => console.log('connect')} className='connect-button'>
                                             <div>Let's connect</div> <ArrowRightCircle size={25} />
                                         </button>
-                                    </a>
+                                    </Link>
+                                    
                                 </div>
                             }
                         </TrackVisibility>

@@ -5,7 +5,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/nav-icon2.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
 import "../App.css";
-
+import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -67,12 +67,12 @@ export const NavBar = () => {
 
                             
                         </div>
-                        <div className='contactbutton'>
-                            <a href="/Contact" aria-label='Contact' rel='noopener' target='_blank'>
-                                <button  onClick={() => console.log('connect')} >
+                        <div className="contactbutton">
+                            <Link to="/Contact" className="navbar-link" onClick={() => onUpdateActiveLink('Contact')}>
+                                <button>
                                     <span>Let's Connect</span>
                                 </button>
-                            </a>
+                            </Link>
                         </div>
                     </span>
                 </Navbar.Collapse>
