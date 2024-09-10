@@ -1,8 +1,8 @@
 {
   "name": "kaelanderson.github.io",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "http://KaelAnderson.github.io/KaelAnderson.github.io",
+  "private": false,
+  "homepage": "http://KaelAnderson.github.io/",
   "dependencies": {
     "@gsap/react": "^2.1.1",
     "@tsparticles/engine": "^3.5.0",
