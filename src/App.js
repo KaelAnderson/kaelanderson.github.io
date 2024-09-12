@@ -12,7 +12,7 @@ import GreenPath from "./pages/GreenPath";
 import StudyAngel from "./pages/StudyAngel";
 import JuliaCompiler from "./pages/JuliaCompiler";
 import KSUResearch from "./pages/KSUResearch";
-import Contact from "./pages/Contact"
+import Contact from "./pages/Contact";
 import ScrollToTop from "./components/ScrollToTop";
 
 
