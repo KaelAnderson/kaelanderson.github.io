@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "../components/NavBar";
 import { Footer } from "../components/Footer";
 import { Col, Row, Container } from "react-bootstrap";
-import KaelHeadshot from "../assets/img/KaelAndersonHeadshot.jpg";
+import KaelHeadshot from "../assets/img/KaelPhoto.jpg";
 import arrowdownshort from "../assets/img/arrow-down-short.svg";
 import KaelAndersonResume from "../assets/img/KaelAndersonResume.pdf"
 

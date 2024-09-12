@@ -452,7 +452,7 @@
 }
 
 
-.project {
+.projects {
   padding: 0 0 0 0;
   position: relative;
 }
@@ -465,13 +465,13 @@
   margin-top: -10px;
 }
 
-.project h2 {
+.projects h2 {
   font-size: 45px;
   font-weight: 700;
   
 }
 
-.project p {
+.projects p {
   color: #b8b8b8;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -479,7 +479,7 @@
   margin: 14px 0 25px 0;
 }
 
-.project img {
+.projects img {
   padding: 5px 10px 10px 10px;
   border-radius: 64px;
 }
@@ -706,7 +706,7 @@
     margin-top: -10px;
     animation: 6s linear orbit2 infinite;
   }
-  .project h4 {
+  .projects h4 {
     font-size: 17px;
     font-weight: 450;
   }
@@ -756,10 +756,10 @@
     top: calc(-5% - 1.5vw);
     left: calc(38% - 1.5vw);
   }
-  .project .project-bx h2 {
+  .projects .project-bx h2 {
     font-size: 37px;
   }
-  .project .project-bx p {
+  .projects .project-bx p {
     font-size: 17px;
   }
   .footer img {
@@ -851,10 +851,10 @@
     height: auto;
     width: auto;
   }
-  .project .project-bx h2 {
+  .projects .project-bx h2 {
     font-size: 33px;
   }
-  .project .project-bx p {
+  .projects .project-bx p {
     font-size: 14px;
   }
 }
@@ -872,7 +872,7 @@
   .banner p {
     font-size: 15px;
   }
-  .project h4 {
+  .projects h4 {
     font-size: 17px;
     font-weight: 450;
   }
@@ -907,15 +907,15 @@
   .banner p {
     font-size: 14px;
   }
-  .project h4 {
+  .projects h4 {
     font-size: 14px;
     font-weight: 400;
   }
-  .project h2 {
+  .projects h2 {
     font-size: 25px;
     
   }
-  .project p {
+  .projects p {
     font-size: 14px;
     
   }
