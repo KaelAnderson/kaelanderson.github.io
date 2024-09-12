@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.f173e3d3.css",
-    "main.js": "/static/js/main.e8cdc9a3.js",
-    "static/media/KaelAndersonHeadshot.jpg": "/static/media/KaelAndersonHeadshot.8e5657d1603517755821.jpg",
+    "main.css": "/static/css/main.7c0e6963.css",
+    "main.js": "/static/js/main.61c941f1.js",
     "static/media/Earth.png": "/static/media/Earth.be69f5f0c630629b3537.png",
+    "static/media/KaelPhoto.jpg": "/static/media/KaelPhoto.016a5ab13f30482e8677.jpg",
     "static/media/Cartoon Moon.png": "/static/media/Cartoon Moon.5969ca10daa9d324c578.png",
     "static/media/StudyAngelScope.png": "/static/media/StudyAngelScope.4e8e5b2fd3982949a241.png",
     "static/media/GreenPathWin.jpg": "/static/media/GreenPathWin.1ff7ba23c6bdde445213.jpg",
@@ -14,7 +14,7 @@
     "static/media/HIXLogo.png": "/static/media/HIXLogo.78b5d4ff77ea36788beb.png",
     "static/media/KSUFall2023Hack.png": "/static/media/KSUFall2023Hack.baa265ea2e1b6c451fa1.png",
     "static/media/HIXSponsors.png": "/static/media/HIXSponsors.a29809fdc9dd64c85dd9.png",
-    "static/media/KaelAndersonResume.pdf": "/static/media/KaelAndersonResume.83a057ea99765256a1eb.pdf",
+    "static/media/KaelAndersonResume.pdf": "/static/media/KaelAndersonResume.0d39a5e9a9109a20c53d.pdf",
     "static/media/JuliaTokens.png": "/static/media/JuliaTokens.a798e7ca4f4bdc15749f.png",
     "static/media/StudyAngelContributions.png": "/static/media/StudyAngelContributions.52dbf4d3050553a3bbac.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -42,11 +42,11 @@
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/index.html",
     "static/media/arrow-down-short.svg": "/static/media/arrow-down-short.44e943253a1f89dc242f802e4527cd4d.svg",
-    "main.f173e3d3.css.map": "/static/css/main.f173e3d3.css.map",
-    "main.e8cdc9a3.js.map": "/static/js/main.e8cdc9a3.js.map"
+    "main.7c0e6963.css.map": "/static/css/main.7c0e6963.css.map",
+    "main.61c941f1.js.map": "/static/js/main.61c941f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.f173e3d3.css",
-    "static/js/main.e8cdc9a3.js"
+    "static/css/main.7c0e6963.css",
+    "static/js/main.61c941f1.js"
   ]
 }
