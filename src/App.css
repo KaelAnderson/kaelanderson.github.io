@@ -728,7 +728,11 @@
     margin: auto;
     border-radius: 24px;
   }
-
+  .contactrows img {
+  
+  width: 330px;
+  height: 451px;
+}
   .footer img {
     width: 50%;
     
@@ -770,6 +774,11 @@
   .projrows div {
     max-width: fit-content;
   }
+  .contactrows img {
+  
+    width: 180px;
+    height: 246px;
+  }
 
 }
 
@@ -794,9 +803,11 @@
   .box div {
     font-size: medium;
   }
-  .contactrows img{
-    width: 27vw;
-    height: 48vw;
+  
+  .contactrows img {
+  
+    width: 180px;
+    height: 246px;
   }
   .contactrows div {
     font-size: 2.2vw;
@@ -815,9 +826,10 @@
     height: fit-content;
     max-width: 65vw;
   }
-  .contactrows img{
-    width: 27vw;
-    height: 48vw;
+  .contactrows img {
+  
+    width: 180px;
+    height: 246px;
   }
   .contactrows div {
     font-size: 2.3vw;
@@ -879,12 +891,13 @@
   .contactrows div{
     font-size: 2.75vw;
   }
-  .contactrows img{
-    width: 30vw;
-    height: 53.3333vw;
+  .contactrows img {
+  
+    width: 135px;
+    height: 185px;
   }
   .contactrows div {
-    font-size: 2.3vw;
+    font-size: 2.1vw;
   }
 }
 @media (max-width: 485px){
@@ -973,7 +986,11 @@
   .banner button:hover svg {
     margin-left: 20px;
   }
+  .contactrows img {
   
+    width: 90px;
+    height: 123px;
+  }
 }
 @media (max-width: 333px){
   Footer .fulllogo {
