@@ -531,6 +531,9 @@
   padding: 13px 10px 12px 0px;
   max-width: 50vw;
 }
+.projrows img{
+  width: 525px;
+}
 .projbelow img{
   visibility: hidden;
   height: 0;
@@ -720,7 +723,7 @@
   }
   .projbelow img {
     visibility: visible;
-    width: 60vw;
+    width: 525px;
     height: fit-content;
     
     max-width: 55vw;
@@ -931,6 +934,9 @@
   .projects p {
     font-size: 14px;
     
+  }
+  .box {
+    padding: 30px 10px 20px 30px;
   }
 }
 @media (max-width: 415px){
